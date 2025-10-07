@@ -430,7 +430,7 @@ def generate_proton_subplot(ax, proton_flux_dict : dict, start_datetimes : list,
         ax.legend() # Enabling legends
 
     # Setting plot title
-    ax.set_title(f"Proton flux from {format_datetime(boundaries_dict["min_time"])} to {format_datetime(boundaries_dict["max_time"])}")
+    ax.set_title(f"Proton flux from {format_datetime(boundaries_dict['min_time'])} to {format_datetime(boundaries_dict['max_time'])}")
 
     # Setting plot axis labels
     ax.set_ylabel(r'Particles∙cm$^-2$∙s$^-1$∙sr$^-1$')
@@ -469,7 +469,7 @@ def generate_neutron_subplot(ax, neutron_flux_dict : dict, start_datetimes : lis
             ax.legend() # Enabling legends
 
     # Setting plot title
-    ax.set_title(f"Neutron flux from {format_datetime(boundaries_dict["min_time"])} to {format_datetime(boundaries_dict["max_time"])}")
+    ax.set_title(f"Neutron flux from {format_datetime(boundaries_dict['min_time'])} to {format_datetime(boundaries_dict['max_time'])}")
     
     # Setting plot axis labels
     ax.set_ylabel(r'Particles∙cm$^-2$∙s$^-1$∙sr$^-1$')

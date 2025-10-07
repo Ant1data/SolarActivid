@@ -1,0 +1,37 @@
+name: COA
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.26.4
+  - pillow=10.3.0
+  - babel=2.15.0
+  - cftime=1.6.4
+  - tk
+  - pip:
+      - matplotlib==3.9.0
+      - opencv-python==4.10.0.82
+      - altgraph==0.17.4
+      - certifi==2024.6.2
+      - charset-normalizer==3.3.2
+      - contourpy==1.2.1
+      - customtkinter==5.2.2
+      - cycler==0.12.1
+      - darkdetect==0.8.0
+      - fonttools==4.53.0
+      - idna==3.7
+      - kiwisolver==1.4.5
+      - packaging==24.0
+      - pefile==2023.2.7
+      - pyinstaller==6.10.0
+      - pyinstaller-hooks-contrib==2024.8
+      - pyparsing==3.1.2
+      - python-dateutil==2.9.0.post0
+      - pywin32-ctypes==0.2.2
+      - requests==2.32.3
+      - setuptools==72.1.0
+      - six==1.16.0
+      - tkcalendar==1.6.1
+      - urllib3==2.2.2
